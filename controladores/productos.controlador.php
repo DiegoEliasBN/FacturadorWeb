@@ -59,8 +59,8 @@ class ControladorProductos{
 	static public function ctrCrearProducto(){
 		if(isset($_POST["nuevaDescripcion"])){
 			if(preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ(). -]+$/', $_POST["nuevaDescripcion"]) &&	
-			   preg_match('/^[0-9.]+$/', $_POST["nuevoPrecioCompra"]) &&
-			   preg_match('/^[0-9.]+$/', $_POST["nuevoPrecioVenta"])){
+			   preg_match('/^[0-9.,]+$/', $_POST["nuevoPrecioCompra"]) &&
+			   preg_match('/^[0-9.,]+$/', $_POST["nuevoPrecioVenta"])){
 		   		/*=============================================
 				VALIDAR IMAGEN
 				=============================================*/
@@ -150,8 +150,8 @@ class ControladorProductos{
 	static public function ctrCrearProductoAlmacen(){
 		if(isset($_POST["nuevaDescripcion"])){
 			if(preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ(). -]+$/', $_POST["nuevaDescripcion"]) &&	
-			   preg_match('/^[0-9.]+$/', $_POST["nuevoPrecioCompra"]) &&
-			   preg_match('/^[0-9.]+$/', $_POST["nuevoPrecioVenta"])){
+			   preg_match('/^[0-9.,]+$/', $_POST["nuevoPrecioCompra"]) &&
+			   preg_match('/^[0-9.,]+$/', $_POST["nuevoPrecioVenta"])){
 		   		/*=============================================
 				VALIDAR IMAGEN
 				=============================================*/
