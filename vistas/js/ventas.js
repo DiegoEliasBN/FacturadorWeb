@@ -502,7 +502,8 @@ $(".tablas").on("click", ".btnImprimirFactura", function() {
 })
 $(".tablas").on("click", ".btnImprimirFactura-carta", function() {
     var claveacceso = $(this).attr('codAcceso');
-    window.open("http://facturador.systsolutionsec.com/?ruta=sri&ride=" + claveacceso, "_blank");
+    //window.open("http://sistema.santanacangrejal.com/?ruta=sri&ride=" + claveacceso, "_blank");
+	window.open("?ruta=sri&ride=" + claveacceso, "_blank");
     //window.open("extenciones/tcpdf/pdf/pdf.php","_blank");
 })
 /*=============================================
