@@ -46,9 +46,10 @@ class FacturaDefault extends FacturaRideBase{
                                     <tr>
                                         <td>OBLIGADO A LLEVAR CONTABILIDAD: '.$this->xml->infoFactura->obligadoContabilidad.'</td>
                                     </tr>
-									<tr>
-                                        <td>'.$this->xml->infoTributaria->contribuyenteRimpe.'</td>
-                                    </tr>
+
+
+
+
                                 </table>
                             </td>
                             <td  bgcolor="#F4F4F4">
@@ -270,4 +271,13 @@ class FacturaDefault extends FacturaRideBase{
         $pdf->lastPage();// reset pointer to the last page
         $pdf->Output(sprintf('%s.pdf', $this->xml->infoTributaria->claveAcceso), 'I');//Close and output PDF document
     }
+
+/* ETIQUETA CUANDO ES REGIMEN RIMPE
+
+									<tr>
+                                        <td>'.$this->xml->infoTributaria->contribuyenteRimpe.'</td>
+                                    </tr>
+
+*/
+
 }

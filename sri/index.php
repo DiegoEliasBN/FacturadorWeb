@@ -28,63 +28,63 @@ class ComprobantesElectronicos
                     'nombreEstablecimiento' => 'SystSolutionsEC',
                     'establecimiento' => '001',
                     'puntoemision' => '002',
-					'razonSocial' => 'BAJANA NOBLECILLA DIEGO ELIAS',
-					'baseLegal' => 'Negocio Popular - Regimen RIMPE',
-					'contribuyenteRimpe' => 'CONTRIBUYENTE NEGOCIO POPULAR - RÉGIMEN RIMPE'
+					'razonSocial' => 'BAJANA NOBLECILLA DIEGO ELIAS'
+					//'baseLegal' => 'Negocio Popular - Regimen RIMPE',
+					//'contribuyenteRimpe' => 'CONTRIBUYENTE NEGOCIO POPULAR - RÉGIMEN RIMPE'
                 ];
             case 2: // GD Importadora
                 return [
                     'nombreEstablecimiento' => 'GD Importadora',
                     'establecimiento' => '001',
                     'puntoemision' => '001',
-					'razonSocial' => 'BARROS RIVERA JOSE GABRIEL',
-					'baseLegal' => 'Negocio Popular - Regimen RIMPE',
-					'contribuyenteRimpe' => 'CONTRIBUYENTE NEGOCIO POPULAR - RÉGIMEN RIMPE'
+					'razonSocial' => 'BARROS RIVERA JOSE GABRIEL'
+					//'baseLegal' => 'Negocio Popular - Regimen RIMPE',
+					//'contribuyenteRimpe' => 'CONTRIBUYENTE NEGOCIO POPULAR - RÉGIMEN RIMPE'
                 ];
 			case 3: // SysTech
                 return [
                     'nombreEstablecimiento' => 'SysTech',
                     'establecimiento' => '001',
                     'puntoemision' => '003',
-					'razonSocial' => 'GUSNAY CELA JOSE SEGUNDO',
-					'baseLegal' => 'Negocio Popular - Regimen RIMPE',
-					'contribuyenteRimpe' => 'CONTRIBUYENTE NEGOCIO POPULAR - RÉGIMEN RIMPE'
+					'razonSocial' => 'GUSNAY CELA JOSE SEGUNDO'
+					//'baseLegal' => 'Negocio Popular - Regimen RIMPE',
+					//'contribuyenteRimpe' => 'CONTRIBUYENTE NEGOCIO POPULAR - RÉGIMEN RIMPE'
                 ];
 			case 5: // SysTech
                 return [
                     'nombreEstablecimiento' => 'ALVARADO DOLZ ALEXIS STALYN',
                     'establecimiento' => '001',
                     'puntoemision' => '002',
-					'razonSocial' => 'ALVARADO DOLZ ALEXIS STALYN',
-					'baseLegal' => 'Negocio Popular - Regimen RIMPE',
-					'contribuyenteRimpe' => 'CONTRIBUYENTE NEGOCIO POPULAR - RÉGIMEN RIMPE'
+					'razonSocial' => 'ALVARADO DOLZ ALEXIS STALYN'
+					//'baseLegal' => 'Negocio Popular - Regimen RIMPE',
+					//'contribuyenteRimpe' => 'CONTRIBUYENTE NEGOCIO POPULAR - RÉGIMEN RIMPE'
                 ];
 			case 6: // NOBLECILLA OLAYA ANA JACQUELINE
                 return [
                     'nombreEstablecimiento' => 'NOBLECILLA OLAYA ANA JACQUELINE',
                     'establecimiento' => '001',
                     'puntoemision' => '002',
-					'razonSocial' => 'NOBLECILLA OLAYA ANA JACQUELINE',
-					'baseLegal' => 'Negocio Popular - Regimen RIMPE',
-					'contribuyenteRimpe' => 'CONTRIBUYENTE NEGOCIO POPULAR - RÉGIMEN RIMPE'
+					'razonSocial' => 'NOBLECILLA OLAYA ANA JACQUELINE'
+					//'baseLegal' => 'Negocio Popular - Regimen RIMPE',
+					//'contribuyenteRimpe' => 'CONTRIBUYENTE NEGOCIO POPULAR - RÉGIMEN RIMPE'
                 ];
 			case 8: // MONCAYO REGALADO LUIS ENRIQUE
                 return [
                     'nombreEstablecimiento' => 'MONCAYO REGALADO LUIS ENRIQUE',
                     'establecimiento' => '001',
                     'puntoemision' => '002',
-					'razonSocial' => 'MONCAYO REGALADO LUIS ENRIQUE',
-					'baseLegal' => 'Emprendimiento - Regimen RIMPE',
-					'contribuyenteRimpe' => 'CONTRIBUYENTE RÉGIMEN RIMPE'
+					'razonSocial' => 'MONCAYO REGALADO LUIS ENRIQUE'
+					//'baseLegal' => 'Emprendimiento - Regimen RIMPE',
+					//'contribuyenteRimpe' => 'CONTRIBUYENTE RÉGIMEN RIMPE'
                 ];
 			case 9: // REGALADO BURBANO MELBA JACKELINE
                 return [
                     'nombreEstablecimiento' => 'REGALADO BURBANO MELBA JACKELINE',
                     'establecimiento' => '004',
                     'puntoemision' => '002',
-					'razonSocial' => 'REGALADO BURBANO MELBA JACKELINE',
-					'baseLegal' => 'Emprendimiento - Regimen RIMPE',
-					'contribuyenteRimpe' => 'CONTRIBUYENTE RÉGIMEN RIMPE'
+					'razonSocial' => 'REGALADO BURBANO MELBA JACKELINE'
+					//'baseLegal' => 'Emprendimiento - Regimen RIMPE',
+					//'contribuyenteRimpe' => 'CONTRIBUYENTE RÉGIMEN RIMPE'
                 ];
             default: // Local no asignado
                 return [
@@ -354,7 +354,7 @@ class ComprobantesElectronicos
             'claveAcceso' => '',
             'contribuyenteEspecial' => '',
             'obligadoLlevarContabilidad' => 'NO',
-			'contribuyenteRimpe' => $contribuyenteRimpe,
+			//'contribuyenteRimpe' => $contribuyenteRimpe,
             'guiaRemision' => '',
             'totalSubsidio' => 0,
             'pagos' =>
