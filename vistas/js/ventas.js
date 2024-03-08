@@ -492,7 +492,7 @@ IMPRIMIR FACTURA
 =============================================*/
 $(".tablas").on("click", ".btnAutorizarFactura", function() {
     var id = $(this).attr("idVenta");
-    window.open("http://facturador.systsolutionsec.com/?ruta=sri&" ,"_self");
+    window.open(window.location.origin + "?ruta=sri&ride=" + id, "_self");
 })
 $(".tablas").on("click", ".btnImprimirFactura", function() {
     var codigoVenta = $(this).attr("codigoVenta");
@@ -503,7 +503,7 @@ $(".tablas").on("click", ".btnImprimirFactura", function() {
 $(".tablas").on("click", ".btnImprimirFactura-carta", function() {
     var claveacceso = $(this).attr('codAcceso');
     //window.open("http://sistema.santanacangrejal.com/?ruta=sri&ride=" + claveacceso, "_blank");
-	window.open("?ruta=sri&ride=" + claveacceso, "_blank");
+	window.open(window.location.origin + "?ruta=sri&ride=" + claveacceso, "_blank");
     //window.open("extenciones/tcpdf/pdf/pdf.php","_blank");
 })
 /*=============================================
