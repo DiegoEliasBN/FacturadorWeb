@@ -492,7 +492,7 @@ IMPRIMIR FACTURA
 =============================================*/
 $(".tablas").on("click", ".btnAutorizarFactura", function() {
     var id = $(this).attr("idVenta");
-    window.open(window.location.origin + "?ruta=sri&ride=" + id, "_self");
+    window.open(window.location.origin + "sricron.php" + id, "_self");
 })
 $(".tablas").on("click", ".btnImprimirFactura", function() {
     var codigoVenta = $(this).attr("codigoVenta");
